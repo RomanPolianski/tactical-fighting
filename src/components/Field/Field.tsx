@@ -116,7 +116,7 @@ export const Field: React.FunctionComponent<IFieldProps> = ({
   return (
     <div className={s.mainField}>
       <p className={s.rounds}>
-        <b>Round:</b> {round.round} Step: {step}
+        <b>Round:</b> {round.round} <b>Step:</b> {step}
       </p>
       <Team
         id={1}
