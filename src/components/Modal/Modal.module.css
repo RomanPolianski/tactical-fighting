@@ -1,0 +1,35 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+}
+.modal {
+  background-color: rgba(225, 225, 225, 0.45);
+  display: flex;
+  width: calc(25% + 15vw);
+  height: auto;
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+button {
+  float: right;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 70px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+button:active {
+  background-color: beige;
+}
